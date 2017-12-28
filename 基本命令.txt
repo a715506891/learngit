@@ -44,6 +44,9 @@ python manage.py inspectdb > myapp/models.py
 #查看已有数据结构
  python manage.py inspectdb
 
+
+git
+
 然后尝试提交：
 
 $ git add 基本命令.txt
@@ -51,3 +54,9 @@ $ git commit -m "增加基本命令"
 
 查看版本
 $ git log --pretty=oneline
+
+回滚版本
+git reset --hard HEAD^
+
+找回版本
+git reset --hard 3628164
