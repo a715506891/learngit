@@ -48,3 +48,6 @@ python manage.py inspectdb > myapp/models.py
 
 $ git add 基本命令.txt
 $ git commit -m "增加基本命令"
+
+查看版本
+$ git log --pretty=oneline
