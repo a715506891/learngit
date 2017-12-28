@@ -1,0 +1,45 @@
+﻿#创建项目
+
+django-admin startproject project_name
+django-admin startproject myprojiect
+#有时使用django-admin 替换 django-admin.py
+
+#创建app
+python manage.py startapp app_name
+python manage.py startapp echars
+
+
+#管理员
+
+python manage.py createsuperuser
+ 
+ 
+# 改变密码
+python manage.py changepassword username
+
+#运行
+cd C:\Users\Administrator\Desktop\django\sanguanhe
+cd C:\Users\Administrator\Desktop\django\work\houtai
+python manage.py runserver
+
+#更改服务器端口
+python manage.py runserver 8080
+
+#你可以告诉服务器–允许非本地连接访问
+python manage.py runserver 0.0.0.0:8000
+
+#数据访问
+python manage.py makemigrations books    #用来检测数据库变更和生成数据库迁移文件
+
+python manage.py migrate     #用来迁移数据库
+
+python manage.py sqlmigrate books 0001 # 用来把数据库迁移文件转换成数据库语言
+
+#Django配置启用Python交互解释器的一种方法
+python manage.py shell
+
+#将已有数据结构导入app的models.py，（由于位置问题，备份项目到别的文件去进行，单独考出需要表格的代码）
+python manage.py inspectdb > appname/models.py
+python manage.py inspectdb > myapp/models.py
+#查看已有数据结构
+ python manage.py inspectdb
