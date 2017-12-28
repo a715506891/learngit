@@ -43,3 +43,8 @@ python manage.py inspectdb > appname/models.py
 python manage.py inspectdb > myapp/models.py
 #查看已有数据结构
  python manage.py inspectdb
+
+然后尝试提交：
+
+$ git add 基本命令.txt
+$ git commit -m "增加基本命令"
