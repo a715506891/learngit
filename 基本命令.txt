@@ -88,5 +88,6 @@ Git鼓励大量使用分支：
 
 合并某分支到当前分支：git merge <name>
 
-Creating a new branch is quick AND simple.
+git merge --no-ff -m "merge with no-ff" dev
+
 
