@@ -88,6 +88,7 @@ Git鼓励大量使用分支：
 
 合并某分支到当前分支：git merge <name>
 
+不进行快速更新
 git merge --no-ff -m "merge with no-ff" dev
 
 
