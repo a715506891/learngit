@@ -60,3 +60,6 @@ git reset --hard HEAD^
 
 找回版本
 git reset --hard 3628164
+
+本地库的所有内容推送到远程库上
+ git push -u origin master
